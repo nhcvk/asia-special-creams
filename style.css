@@ -7,22 +7,26 @@ h1 {
   font-size: 80px;
 }
 
+h2 {
+  text-align: center;
+}
+
 .banner {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 100vh;
+  height: 70vh;
   object-fit: cover;
   color: white;
   text-align: center;
   background-size: cover;
   text-shadow: 1px 1px #808080;
+  margin: 50px;
 }
 
 p.intro {
   font-size: 25px;
 }
-
 
 
 /*.products {
@@ -31,7 +35,7 @@ p.intro {
 }*/
 
 .product-image {
-  width: 300px;
+/*  width: 300px;*/
   object-fit: cover;
 /*  width: 300px;
   margin:0 auto;*/
@@ -44,3 +48,22 @@ p.intro {
   border-radius: 4px;
   margin: 20px 0px;
 }
+
+.card-product-header {
+    background-color: #469AE0;
+    height: 200px;
+    background-size: cover;
+    border-radius: 3px 3px 0px 0px;
+    position: relative;
+    object-fit: cover;
+    background-position: center center;
+}
+
+.card-product-filter {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.1) 80%);
+}
+
