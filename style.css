@@ -1,0 +1,31 @@
+body {
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 80px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  object-fit: cover;
+  color: white;
+  text-align: center;
+  background-size: cover;
+  text-shadow: 1px 1px #808080;
+}
+
+p.intro {
+  font-size: 25px;
+}
+
+
+
+.products {
+  background-size: cover;
+  height: 200px;
+}
