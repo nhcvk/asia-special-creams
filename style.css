@@ -207,6 +207,21 @@ h2 {
   background-image: linear-gradient(to right, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.1) 80%);
 }
 
+/* CONTACT */
+
+.contact-info {
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.fab fa-instagram .contact-info {
+  font-size: 100px;
+}
+
+.fab .fa-facebook .contact-info {
+  font-size: 100px;
+}
 
 /* Footer */
 .footer {
