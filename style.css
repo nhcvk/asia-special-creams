@@ -11,6 +11,7 @@ h2 {
   text-align: center;
 }
 
+
 /* Main navbar */
 .navbar-wagon {
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
@@ -89,7 +90,7 @@ h2 {
   border-top: 1px solid #E6E6E6;
 }
 
-/* banner */
+/* BANNNER */
 
 .banner {
   display: flex;
@@ -114,11 +115,64 @@ h2 {
   text-align: center;
 }
 
+/* FEATURES */
 
-/*.products {
-  background-size: cover;
-  height: 200px;
-}*/
+.features-wrapper.up {
+  position: relative;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.features-wrapper {
+  background-color: #fdf0f6;
+/*    background-color: #F4F4F4;*/
+  padding-bottom: 0px;
+}
+
+.feature {
+    padding: 40px 10px 0 10px;
+    flex: 0 0 33%;
+    padding-bottom: 0;
+}
+
+.feature-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.feature-body {
+  font-size: 16px;
+}
+
+.section-title-home-content {
+ /*   background-color: #F4F4F4;*/
+  background-color: #fdf0f6;
+  position: relative;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.section-title-home {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: -2px;
+  border-bottom: 1px solid #E0E0E0;
+  height: 7px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  margin: 2em 40px 1em 40px;
+  z-index: 1;
+}
+
+
+
+
+
+/* PRODUCTS */
 
 .product-image {
 /*  width: 300px;*/
@@ -153,6 +207,8 @@ h2 {
   background-image: linear-gradient(to right, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.1) 80%);
 }
 
+
+/* Footer */
 .footer {
   background-color: white;
 /*  background: #F4F4F4;*/
@@ -179,53 +235,6 @@ h2 {
 }
 .footer .fa-heart {
   color: #D23333;
-}
-
-
-
-
-
-.features-wrapper.up {
-  position: relative;
-  margin-top: 0px;
-  padding-top: 0px;
-}
-
-.features-wrapper {
-  background-color: #fdf0f6;
-/*    background-color: #F4F4F4;*/
-  padding-bottom: 0px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-div {
-  display: block;
-}
-
-.section-title-home-content {
- /*   background-color: #F4F4F4;*/
-  background-color: #fdf0f6;
-  position: relative;
-  padding-right: 30px;
-  padding-left: 30px;
-}
-
-.section-title-home {
-  text-align: center;
-  font-size: 30px;
-  font-weight: 900;
-  letter-spacing: -2px;
-  border-bottom: 1px solid #E0E0E0;
-  height: 7px;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  display: flex;
-  margin: 2em 40px 1em 40px;
-  z-index: 1;
 }
 
 
